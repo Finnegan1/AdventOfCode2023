@@ -4,7 +4,6 @@ with open('input.txt', 'r') as f:
         first_number = ""
         second_number = ""
         for element in line:
-            print(element)
             if element.isnumeric() :
                 if first_number == "":
                     first_number = element
